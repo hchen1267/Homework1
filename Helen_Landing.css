@@ -1,0 +1,58 @@
+.zebra_table{
+	font-family: sans-serif;
+	width: 100%;
+	text-align: left;
+	border-collapse: collapse;
+}
+.zebra_table a{
+	color: black;
+}
+.zebra_table tr:first-child{
+	background-color: lightpink;
+}
+.zebra_table tr:nth-child(2){
+	background-color: lightgray;
+}
+.zebra_table tr:nth-child(3){
+	background-color: lightpink;
+}
+.profile img{
+	z-index: 1;
+	width: 200px;
+	height: 300px;
+	object-fit: contain;
+}
+.Quote{
+	font-size: 30px;
+	font-family: Monaco;
+	border: 10px rounded black;
+	position: absolute;
+	z-index: 2;
+	top: 325px;
+	left: 400px;
+}
+.Hobbies{
+	font-family: sans-serif;
+}
+
+.links a {
+	color: steelblue;
+	text-decoration: none;
+}
+.links a:hover{
+	color: red;
+	text-decoration: underline;
+}
+.highlight{
+	display: inline-block;
+	color: red;
+	font-weight: bold;
+}
+.external_links a {
+	color: steelblue;
+	text-decoration: none;
+}
+.external_links a:hover{
+	color: red;
+	text-decoration: underline;
+}
